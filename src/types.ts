@@ -1,6 +1,5 @@
-import { Component, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { ViewProps, TextProps, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
-import * as CarouselMain from './index';
 
 export interface CarouselProps {
   children: ReactNode;
