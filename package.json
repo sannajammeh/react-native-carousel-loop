@@ -1,19 +1,28 @@
 {
   "name": "react-native-carousel-loop",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A typescript based infinite carousel for react-native",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
     "build": "tsc -p ."
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sannajammeh/react-native-carousel-loop.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "react-native",
+    "carousel",
+    "infinite",
+    "loop"
+  ],
+  "author": "Sanna Jammeh",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sannajammeh/react-native-carousel-loop/issues"
   },
