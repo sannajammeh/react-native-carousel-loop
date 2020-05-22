@@ -28,7 +28,7 @@ class Carousel extends Component<CarouselProps, StateProps> {
 
   static defaultProps = {
     delay: PAGE_CHANGE_DELAY,
-    autoplay: true,
+    autoplay: false,
     pageInfo: false,
     bullets: false,
     arrows: false,
@@ -177,7 +177,7 @@ class Carousel extends Component<CarouselProps, StateProps> {
   };
 
   _clearTimer = () => {
-    clearTimeout(this.timer);
+    this.timer && clearTimeout(this.timer);
   };
 
   _setUpTimer = () => {
