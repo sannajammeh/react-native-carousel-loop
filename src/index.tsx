@@ -124,9 +124,9 @@ class Carousel extends Component<CarouselProps, StateProps> {
       );
     }
     return pages.map((page, i) => (
-      <TouchableWithoutFeedback style={[{ ...size }, pageStyle]} key={`page${i}`}>
+      <View style={[{ ...size }, pageStyle]} key={`page${i}`}>
         {page}
-      </TouchableWithoutFeedback>
+      </View>
     ));
   }
 
